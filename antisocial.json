@@ -1,0 +1,941 @@
+{
+	"Subversion": {
+		"Definition": "To cause to serve a purpose other than the established one",
+		"Principle": "[[Wikipedia:Five_pillars#WP:5P1]]",
+		"Policy": "[[Wikipedia:What Wikipedia is not]]",
+		"Compromises": "Purpose of the projects",
+		"Remedies":["Revert", "Delete", "RevDel"],
+		"Advertising": {
+			"Definition": " solicitations for a business, product or service, or are public relations pieces designed to promote a company or individual",
+			"Policy": "[[Wikipedia:What_Wikipedia_is_not#Wikipedia_is_not_a_soapbox_or_means_of_promotion]]",
+			"Compromises": "Neutrality",
+			"Covert advertising": {
+				"Definition": "Advertising that is not labeled as such",
+				"Policy": "[[Wikipedia:What_Wikipedia_is_not#Wikipedia_is_not_a_soapbox_or_means_of_promotion]]",
+				"Guideline": "[[Wikipedia:Spam#Advertisements_masquerading_as_articles]]",
+				"Example": "[[Conflict-of-interest_editing_on_Wikipedia#The_North_Face]]",
+				"Compromises": "NPOV",
+				"Subclass of": "Advertising"
+			}
+		},
+		"Spamming": {
+			"Definition": "Indiscriminate posting of promotional material to large number of targets",
+			"Policy": "[[Wikipedia:What_Wikipedia_is_not#Wikipedia_is_not_a_soapbox_or_means_of_promotion]]",
+			"Guideline": "[[Wikipedia:Spam]]",
+			"Compromises": "NPOV",
+			"Shortcut": "[[WP:ADS]]",
+			"Remedies":["Revert", "Delete", "RevDel"],
+			"External link spamming": {
+				"Definition": "Adding external links to an article or user page for the purpose of promoting a website or a product",
+				"Policy": "[[Wikipedia:Spam#External_link_spamming]]",
+				"Compromises": "No advocacy"
+			},
+			"Citation spam": {
+				"Definition": "adding references with the aim of promoting the author",
+				"Policy": null,
+				"Guideline": "[[Wikipedia:Spam#Citation_spam]]",
+				"Compromises": "No promotion"
+			}
+		},
+		"Inserting original research": {
+			"Definition": "Inserting material for which no reliable, published sources exist",
+			"Policy": "[[Wikipedia:No original research]]",
+			"Compromises": "Verifiability",
+			"Subclass of": "Content conflict",
+			"Remedies":["Revert", "Delete", "RevDel"]
+		},
+		"Soapboxing": {
+			"Definition": "Advocacy, propaganda or recruitment",
+			"Policy": "[[Wikipedia:What Wikipedia is not]]",
+			"Explanatory supplement": "[[WP:NOTHERE]]",
+			"Compromises": "No advocacy",
+			"Shortcut": "[[WP:NOTADVOCACY]]",
+			"Also known as": [
+				"Advocacy",
+				"Promotion",
+				"Recruitment"
+			],
+			"Report at": null,
+			"Remedies":["Revert", "Delete", "RevDel"]
+		},
+		"POV pushing": {
+			"Definition": "the aggressive presentation of a particular point of view",
+			"Shortcut": "[[WP:POVPUSH]]",
+			"Explanatory supplement": "[[Wikipedia:NPOV_dispute#POV_pushing]]",
+			"Policy": "[[Wikipedia:Neutral point of view]]",
+			"Conflict type": "Content",
+			"Compromises": "Neutral point of view",
+			"Remedies":["Revert", "Delete", "RevDel", "Block", "Ban"],
+			"Sealioning": {
+				"Definition": "http://wondermark.com/1k62/",
+				"Policy": null,
+				"Guideline": null,
+				"Essay": "Wikipedia:Civil POV pushing",
+				"Shortcut": "[[WP:SEALION]]",
+				"Also known as": "Civil POV pushing",
+				"Compromises": [
+					"Collegiality",
+					"Editor patience",
+					"NPOV"
+				],
+				"Remedy": "Block"
+			}
+		},
+		"Vandalism": {
+			"Definition": "Willful damage to or destruction of property",
+			"Policy": "Wikipedia:Vandalism",
+			"UCOC": 3.3,
+			"Compromises": [
+				"Integrity of content",
+				"Trust"
+			],
+			"Conflict type": "Content conflict",
+			"Report at": "[[Wikipedia:Administrator intervention against vandalism]]",
+			"Remedies":["Revert", "Delete", "RevDel", "Block"],
+			"Unexplained removal of content": {
+				"Definition": "removal of content without an edit summary or talk page message",
+				"Policy": null,
+				"UCOC": 3.3,
+				"Guideline": null,
+				"Essay": "[[Wikipedia:Content removal]]",
+				"Compromises": "Accountability (you should be able to explain what you did)",
+				"Conflict type": "Content conflict",
+				"Example": "page blanking by an editor who is not the sole contributor to a page",
+				"Subclass of": "Vandalism"
+			},
+			"Hoaxing": {
+				"Definition": "Attempt to trick an audience into believing that something false is real",
+				"Policy": null,
+				"Guideline": "[[Wikipedia:Do not create hoaxes]]",
+				"Compromises": "Verifiability",
+				"Subclass of": "Vandalism",
+				"Remedies":["Revert", "Delete", "RevDel"]
+			}
+		}
+	},
+	"Misconduct": {
+		"Definition": " wrongful, improper, or unlawful conduct motivated by premeditated or intentional purpose or by obstinate indifference to the consequences of one's acts",
+		"Policy": null,
+		"Compromises": "Integrity",
+		"Plagiarism": {
+			"Definition": "the use of works protected by copyright law without permission for a usage where such permission is required",
+			"Policy": "[[Wikipedia:Copyright violations]]",
+			"Compromises": "Wikipedia:Wikipedia is free content",
+			"Also known as": [
+				"Piracy",
+				"Copyvio",
+				"Copyright violations",
+				"Plagiarism"
+			],
+			"Subclass of": "Misconduct",
+			"Remedy": ":Revision_deletion (1)"
+		},
+		"Inserting misinformation": {
+			"Definition": "Inserting incorrect or misleading information",
+			"Policy": null,
+			"Compromises": [
+				"Integrity",
+				"Trust"
+			],
+			"Examples":["adding fabrications to pages"],
+			"Disinformation": {
+				"Definition": "false information deliberately spread in order to influence public opinion or obscure the truth",
+				"Policy": null,
+				"Guideline": null,
+				"Essay": "[[Wikipedia:Disinformation]]",
+				"Compromises": [
+					"Integrity",
+					"Trust"
+				],
+				"Subclass of": "Misinformation"
+			}
+		},
+		"Breach of trust": {
+			"Definition": "failure to act responsibly for someone who has given you something to keep safe",
+			"Policy": "[[Wikipedia:Administrators#Accountability]]",
+			"Compromises": "Trust",
+			"Subclass of": "Misconduct"
+		},
+		"Bad-faith editing": {
+			"Definition": null,
+			"Principle": "WP:5P1",
+			"Policy": "[[Wikipedia:What Wikipedia is not]]",
+			"Explanatory supplement": "[[Wikipedia:Here_to_build_an_encyclopedia#Clearly_not_being_here_to_build_an_encyclopedia]]",
+			"Shortcut": "[[WP:NOTHERE]]",
+			"Compromises": "Assume good faith"
+		},
+		"Disruptive editing": {
+			"Definition": "An interruption to the regular flow or sequence of something",
+			"Policy": null,
+			"Guideline": "[[Wikipedia:Disruptive editing]]",
+			"Compromises": "Productive editor time",
+			"Example": "[[WP:DISRUPTSIGNS]]",
+			"Report at": "[[Wikipedia:Administrators' noticeboard/Incidents]]",
+			"Remedy": ":Revision_deletion (3)",
+			"Tendentious editing": {
+				"Definition": "editing that is partisan, biased, or skewed",
+				"Policy": null,
+				"Guideline": "[[Wikipedia:Disruptive editing]]",
+				"Explanatory supplement": "[[Wikipedia:Tendentious editing]]",
+				"Compromises": "NPOV",
+				"Subclass of": "Disruptive editing",
+				"Righting great wrongs":{
+					"Definition":"Using Wikipedia to make change instead of reporting it",
+					"Explanatory supplement":"[[Wikipedia:Tendentious_editing#Righting_great_wrongs]]",
+					"Shortcuts":["[[WP:RIGHTGREATWRONGS]]", "[[WP:RGW]]"]
+				}
+			},
+			"Edit warring": {
+				"Definition": null,
+				"Policy": "[[Wikipedia:Edit warring]]",
+				"Subclass of": "Failure to reach consensus",
+				"Compromises": "Collegiality",
+				"Resolution": "[[Wikipedia:BOLD, revert, discuss cycle]]",
+				"Conflict type": "Content conflict",
+				"Genre warring": {
+					"Definition": "repeatedly altering either the genre field of music infoboxes, genre categories, or changing genre-related prose based on personal opinion",
+					"Policy": "[[Wikipedia:Edit warring]]",
+					"Compromises": "Collegiality",
+					"Subclass of": "Edit warring"
+				}
+			},
+			"Trolling": {
+				"Definition": "Instigating conflict",
+				"Policy": null,
+				"UCoC": "3.1 Harassment > Trolling",
+				"Compromises": "Collegiality",
+				"Subclass of:": "Disruptive editing",
+				"Griefing": {
+					"Definition": "Misuse of tools or policy to annoy other editors",
+					"Policy": null,
+					"Compromises": "Collegiality"
+				}
+			},
+			"Gaming the system": {
+				"Definition": "using Wikipedia policies in bad faith",
+				"Policy": null,
+				"Guideline": "[[Wikipedia:Gaming the system]]",
+				"Subclass of": "Disruptive editing",
+				"Compromises": "Enforcement of policy",
+				"Gaming of sanctions for disruptive behavior": {
+					"Definition": null,
+					"Policy": null,
+					"Guideline": "[[Wikipedia:Gaming_the_system#Gaming_of_sanctions_for_disruptive_behavior]]",
+					"Shortcut": "[[WP:SANCTIONGAMING]]",
+					"Compromises": "Enforcement of policy",
+					"Examples": [
+						"Refusing to provide a proper citation to an editor looking to verify your claim, and accusing the editor of being disruptive for making repeated requests.",
+						"An editor never violates the three-revert rule, but takes several months to repeatedly push the same edits over the objections of multiple editors."
+					]
+				},
+				"Gaming of permissions": {
+					"Definition": "deceptively gaining a user right to circumvent editing restrictions",
+					"Policy": null,
+					"Guideline": "Wikipedia:Gaming the system",
+					"Information page": "Wikipedia:User access levels",
+					"Compromises": [
+						"[[Wikipedia:User_access_levels#Extendedconfirmed|Extended confirmed protection]]",
+						"[[Wikipedia:User_access_levels#Registered_(new)_users]]"
+					],
+					"Remedy": "Disable permission",
+					"Shortcut": "[[WP:PGAME]]",
+					"Subclass of": "Deception",
+					"Examples": [
+						"[https://en.wikipedia.org/w/index.php?title=Wikipedia:Administrators%27_noticeboard/Incidents&diff=next&oldid=1051794988&diffmode=source]",
+						"[https://en.wikipedia.org/w/index.php?title=Fire_engine&type=revision&diff=1048314538&oldid=1035612517&diffmode=source]"
+					]
+				},
+				"Malingering":{
+					"Definition":"Exaggerating the effects of someone's actions to feign injury",
+					"Remedy":"Boomerang"
+				}
+			},
+			"Pointy": {
+				"Definition": "discrediting a rule or interpretation thereof by applying it consistently.",
+				"Policy": null,
+				"Guideline": "[[Wikipedia:Do not disrupt Wikipedia to illustrate a point]]",
+				"Compromises": "Assumption of good faith",
+				"Shortcuts": [
+					"WP:POINT",
+					"WP:POINTy"
+				],
+				"Also known as": "Disrupting Wikipedia to illustrate a point",
+				"Subclass of": "Disruptive editing",
+				"Conflict type": "Policy conflict"
+			},
+			"Refusing to listen": {
+				"Definition": "repeatedly ignoring or dismissing feedback from multiple editors",
+				"Subclass of": "Disruptive editing",
+				"Compromises": "Consensus",
+				"Also known as": "Failure or refusal to get the point",
+				"Policy": "[[Wikipedia:Disruptive_editing#Failure_or_refusal_to_\"get_the_point\"]]"
+			},
+			"Persistent incompetence": {
+				"Definition": "Refusing or unable to learn how to contribute",
+				"Policy": null,
+				"Guideline": "[[Wikipedia:Disruptive editing]]",
+				"Explanatory supplement": "[[Wikipedia:Competence is required]]",
+				"Compromises": "Competence",
+				"Shortcut": "[[WP:CIR]]"
+			},
+			"Refusing to accept consensus": {
+				"Definition": "repeatedly ignoring or dismissing established consensus",
+				"Policy": "[[Wikipedia:Consensus]]",
+				"Also known as": [
+					"Rejecting consensus",
+					"Battleground behavior"
+				],
+				"Compromises": "Consensus",
+				"Subclass of": "Disruptive editing",
+				"Shortcut": [
+					"[[WP:CON]]"
+				]
+			}
+		},
+		"Deception": {
+			"Definition": "misleading, hiding the truth, or promoting a belief, concept, or idea that is not true",
+			"Policy": null,
+			"Compromises": "[[WP:AGF]]",
+			"Sockpuppetry": {
+				"Definition": "misuse of multiple Wikipedia accounts",
+				"Policy": "[[Wikipedia:Sockpuppetry]]",
+				"Shortcut": "[[WP:SPI]]",
+				"Subclass of": "Deception",
+				"Compromises": [
+					"AGF",
+					"AE"
+				],
+				"Conflict type": "Policy conflict",
+				"Report at": "[[Wikipedia:Sockpuppet investigations]]"
+			},
+			"Block evasion": {
+				"Definition": null,
+				"Policy": "[[Wikipedia:Blocking_policy#Evasion_and_enforcement]]",
+				"Compromises": "Enforcement",
+				"Subclass of": "Deception",
+				"Shortcuts": "[[WP:EVASION]]"
+			},
+			"Lying": {
+				"Definition": "making an untrue statement while aware that it is untrue",
+				"Policy": null,
+				"Information page": "[[Wikipedia:Honesty]]",
+				"Essay": "Wikipedia:Don't lie",
+				"Subclass of": "Deception",
+				"Conflict type": "Content conflict",
+				"Compromises": "[[WP:AGF]]"
+			},
+			"Undisclosed conflict of interest editing": {
+				"Definition": "contributing to Wikipedia about yourself, family, friends, clients, employers, or your financial and other relationships",
+				"ToS": "Meta:Terms_of_Use",
+				"Policy": null,
+				"Guideline": "[[Wikipedia:Conflict_of_interest#Paid_editors]]",
+				"Compromises": "Neutral point of view",
+				"Conflict type": "Policy conflict",
+				"Undisclosed paid editing": {
+					"Definition": "receiving compensation for making edits without disclosure",
+					"Policy": "[[Wikipedia:Paid-contribution disclosure]]",
+					"Compromises": "ToS",
+					"Subclass of": "Conflict of interest editing",
+					"Conflict type": "Policy conflict",
+					"Shortcuts": [
+						"WP:UPE"
+					]
+				}
+			}
+		},
+		"Inappropriate consensus-building": {
+			"Definition": null,
+			"Policy": "[[Wikipedia:Consensus]]",
+			"Conflict type": "Policy conflict",
+			"Compromises": "[[WP:consensus]]",
+			"Canvassing": {
+				"Definition": "notification with the intention of influencing the outcome of a discussion in a particular way",
+				"Policy": null,
+				"Guideline": "[[Wikipedia:Canvassing]]",
+				"Compromises": "Consensus",
+				"Subclass of": "Inappropriate consensus-building",
+				"Conflict type": "Policy conflict",
+				"Shortcut": "[[WP:CANVASS]]"
+			},
+			"Forum shopping": {
+				"Definition": "Raising the same issue on multiple noticeboards and talk page",
+				"Policy": "[[Wikipedia:Consensus#FORUMSHOP]]",
+				"Compromises": "Consensus",
+				"Shortcut": "[[WP:FORUMSHOP]]",
+				"Also known as": "Asking the other parent",
+				"Subclass of": "Inappropriate consensus-building"
+			}
+		},
+		"Not exercising due diligence": {
+			"Definition": "failing to provide the care that a reasonable person exercises to avoid harm",
+			"Policy": "[[Wikipedia:Administrators]]",
+			"Compromises": "Accountability",
+			"Examples": [
+				"Failing to do WP:BEFORE",
+				"Failure to keep confidential information safe",
+				"Ignoring attack pages"
+			]
+		},
+		"Abdication of responsibility": {
+			"Definition": "Not answering for one's actions",
+			"Policy": null,
+			"Compromises": [
+				"Responsibility",
+				"Accountability"
+			],
+			"Principle": "You are responsible for your actions",
+			"Also known as": "To deny or refuse responsibility",
+			"Refusing to communicate": {
+				"Definition": "repeatedly ignoring or dismissing attempts by other editors to communicate",
+				"Policy": null,
+				"Explanatory supplement": "[[Wikipedia:Communication is required]]",
+				"Compromises": "Collaboration"
+			}
+		},
+		"Breach of etiquette": {
+			"Definition": "Conventional rules of personal behaviour",
+			"Policy": "[[Wikipedia:Civility]]",
+			"Guideline": "[[Wikipedia:Etiquette]]",
+			"Compromises": "Etiquette",
+			"Principles": [
+				"AGF",
+				"Golden Rule",
+				"Politeness",
+				"Civility",
+				"NPA",
+				"Honesty",
+				"Accountability"
+			],
+			"Remedy": "Acknowledge the breach, say what you should have done, apologize",
+			"Unprofessionalism": {
+				"Definition": "behaviour inappropriate in a professional setting",
+				"Policy": null,
+				"Compromises": "Professionalism"
+			},
+			"Incivility": {
+				"Definition": "Acting rudely discourteously",
+				"Policy": "[[Wikipedia:Civility]]",
+				"Compromises": "Collaboration",
+				"Profanity": {
+					"Definition": "Obscene, lewd or abusive language",
+					"Policy": "[Wikipedia:Civility]",
+					"Compromises": "Etiquette",
+					"Example": "Fuck off",
+					"Subclass of": "Incivility",
+					"Report at": "[[Wikipedia:Administrators' noticeboard/Incidents]]"
+				},
+				"Abusive language": {
+					"Definition": "language that condemns or vilifies usually unjustly, intemperately, and angrily",
+					"Policy": "[[Wikipedia:Civility]]",
+					"Subclass of": "Incivility",
+					"Compromises": [
+						"Collaboration",
+						"Editor retention",
+						"Safety",
+						"Civility"
+					],
+					"Also known as": "Verbal abuse"
+				},
+				"Insulting": {
+					"Definition": "to treat with insolence, indignity, or contempt",
+					"Policy": "[[Wikipedia:Civility]]",
+					"UCoC": "3.1 Harassment > Insults",
+					"Compromises": [
+						"Collaboration",
+						"Editor retention",
+						"Safety",
+						"Civility"
+					],
+					"Subclass of": "Incivility",
+					"Example": "I printed it out and wiped myself with it"
+				}
+			}
+		}
+	},
+	"Abuse": {
+		"Definitions": [
+			"improper use of something",
+			"cruel and violent treatment of a person"
+		],
+		"Policy": null,
+		"Compromises": [
+			"Editor retention",
+			"Safety",
+			"Civility"
+		],
+		"Report at": null,
+		"Remedies":["Revert", "Delete", "RevDel", "Block", "Ban"],
+		"Maltreatment (Abuse of people)": {
+			"Discrimination": {
+				"Definition": "unjust or prejudicial treatment of different categories of people or things, especially on the grounds of a protected class",
+				"Policy": "[[Meta:WMF Resolutions/Nondiscrimination]]",
+				"Compromises": [
+					"Equality",
+					"Fairness"
+				],
+				"Protected classes": [
+					"race",
+					"color",
+					"gender",
+					"religion",
+					"national origin",
+					"age",
+					"disability",
+					"sexual orientation",
+					"any other legally protected characteristics"
+				],
+				"UCoC protected classes": [
+					"age",
+					"mental disabilities",
+					"physical disabilities",
+					"physical appearance",
+					"national background",
+					"religious background",
+					"ethnic background",
+					"cultural background",
+					"caste",
+					"social class",
+					"language fluency",
+					"sexual orientation",
+					"gender identity",
+					"sex",
+					"career field"
+				]
+			},
+			"Harassment": {
+				"Definition": "a pattern of repeated offensive behavior that appears to a reasonable observer to intentionally target a specific person or persons",
+				"Policy": "[[Wikipedia:Harassment]]",
+				"UCoC": "3.1 Harassment",
+				"Compromises": [
+					"Editor retention",
+					"Safety",
+					"Civility"
+				],
+				"Report at": [
+					"Wikipedia:Dispute_resolution_noticeboard/request",
+					"Wikipedia:Third opinion",
+					"Arbcom",
+					"Wikipedia:Revision_deletion#How_to_request_Revision_Deletion",
+					"Special:EmailUser/Oversight"
+				],
+				"Doxxing": {
+					"Definition": "Publishing an editor's editor's personal information without consent",
+					"Policy": "[[Wikipedia:Harassment#Posting_of_personal_information]]",
+					"UCoC": "3.1 Harassment > Disclosure of personal data (Doxing)",
+					"Aka": "Outing",
+					"Compromises": "Privacy",
+					"Subclass of": "Harassment",
+					"Report at": [
+						"Wikipedia:Oversight"
+					],
+					"Remedy": "[[Wikipedia:Oversight]]",
+					"Shortcut": "[[WP:DOX]]"
+				},
+				"Sexual Harassment": {
+					"Definition": "unwanted sexual attention or advances",
+					"Policy": "[[Wikipedia:Harassment]]",
+					"UCoC": "3.1 Harassment > Sexual harassment",
+					"WMNY": "meta:Wikimedia_New_York_City/Code_of_Conduct",
+					"Compromises": [
+						"Editor retention",
+						"Safety",
+						"Civility"
+					],
+					"Shortcuts": null,
+					"Subclass of": "Harassment",
+					"Shortcut": "[[WP:HOUND]]"
+				},
+				"Misgendering": {
+					"Definition": "refer to (someone, especially a transgender person) using a word, especially a pronoun or form of address, that does not correctly reflect the gender with which they identify.",
+					"Policy": "[[meta:Wikimedia_New_York_City/Code_of_Conduct]]",
+					"Subclass of":"False attribution"
+				},
+				"Deadnaming": {
+					"Definition": "call (a transgender person) by their birth name when they have changed their name as part of their gender transition.",
+					"Policy": "[[meta:Wikimedia_New_York_City/Code_of_Conduct]]",
+					"Subclass of":"False attribution"
+				},
+				"Microaggressions": {
+					"Definition": "commonplace daily verbal, behavioral or environmental slights",
+					"Example": "Where do you <em>really</em> come from?",
+					"Subclass of": "Denigration"
+				},
+				"Violation of bodily integrity": {
+					"Definition": "Unconsented physical intrusion",
+					"Policy": "[[meta:Wikimedia_New_York_City/Code_of_Conduct]]",
+					"Example": "Touching without permission",
+					"Subclass of": "Human rights violation"
+				},
+				"Ignoring a request to stop": {
+				},
+				"Hounding": {
+					"Definition": "singling out of one or more editors, joining discussions on multiple pages or topics they may edit or multiple debates where they contribute, to repeatedly confront or inhibit their work",
+					"Policy": "[[Wikipedia:Harassment#Wikihounding]]",
+					"UCoC": "3.1 Harassment > Hounding",
+					"Compromises": [
+						"Editor retention",
+						"Safety",
+						"Civility"
+					],
+					"Subclass of": "Harassment"
+				},
+				"Public harassment": {
+					"Definition": "Harassment through non-public means (email, phone, private messaging)",
+					"Policy": "[[Wikipedia:Harassment]]",
+					"Compromises": "Civility",
+					"Subclass of": "Harassment",
+					"Resolved by": null,
+					"Report at": null
+				},
+				"Private harassment": {
+					"Definition": "Harassment through non-public means",
+					"Subclass of": "Harassment",
+					"Compromises": [
+						"Editor retention",
+						"Civility"
+					],
+					"Resolved by": null,
+					"Report at": null,
+					"Conflict type": "Interpersonal conflict",
+					"Policy": "[[Wikipedia:Harassment]]"
+				},
+				"Badgering": {
+					"Definition": "repeatedly ask someone to do something",
+					"Policy": null,
+					"Essay": "[[Wikipedia:Don't_bludgeon_the_process#No_one_is_obligated_to_satisfy_you]]",
+					"Compromises": "Civility",
+					"Shortcut": "[[WP:BADGER]]"
+				},
+				"Encouraging harm to others": {
+					"Definition": null,
+					"Policy": null,
+					"UCoC": "3.1 Harassment > Encouraging harm to others",
+					"Compromises": "Safety",
+					"Also known as": "Incitement",
+					"Subclass of": "Crime"
+				}
+			},
+			"Aggression": {
+				"Definition": "hostile, injurious, or destructive behaviour",
+				"Policy": null,
+				"Compromises": "Safety",
+				"Conflict type": "Interpersonal conflict",
+				"Personal attacks": {
+					"Definition": "There is no rule that is objective and not open to interpretation on what constitutes a personal attack as opposed to constructive discussion",
+					"Policy": "[[Wikipedia:No personal attacks]]",
+					"Subclass of": "Harassment",
+					"Compromises": "Collaboration",
+					"Remedy": "Removal and {{tl|RPA}}",
+					"Making unsubstantiated accusations": {
+						"Definition": "claiming without evidence that someone has done something illegal or wrong",
+						"Policy": "[[Wikipedia:No personal attacks]]",
+						"Compromises": "Proof is required",
+						"Subclass of": "Personal attacks",
+						"Resolved by": [
+							"Providing evidence",
+							"Striking",
+							"Removal",
+							"Oversight"
+						],
+						"Defamation": {
+							"Definition": "a false statement about another",
+							"Policy": "[[Wikipedia:NPA]]",
+							"Compromises": "Law",
+							"Conflict type": "Legal conflict"
+						}
+					},
+					"Casting aspersions": {
+						"Definition": "harshly criticize someone's character",
+						"Policy": "[[Wikipedia:No personal attacks]]",
+						"Information page": "[[Wikipedia:Casting aspersions]]",
+						"Compromises": "Civility",
+						"Report at": [
+							"WP:AN/I"
+						],
+						"Subclass of": [
+							"Personal attacks",
+							"Accusing"
+						],
+						"Example": "Nobody likes you"
+					},
+					"Making derogatory comments": {
+						"Definition": " to cause to seem inferior",
+						"Policy": "[[Wikipedia:Civility]]",
+						"Compromises": "Civility",
+						"Subclass of": "Personal attacks"
+					}
+				},
+				"Biting": {
+					"Definition": null,
+					"Policy": "[[Wikipedia:Assume good faith]]",
+					"Guideline": "[[Wikipedia:Please do not bite the newcomers]]",
+					"Compromises": "Editor retention",
+					"Where to report": null
+				}
+			},
+			"Verbal abuse": {
+				"Definition": null,
+				"Policy": null,
+				"Compromises": "Civility",
+				"Name-calling": {
+					"Definition": null,
+					"UCoC": "3.1 Harassment > Insults",
+					"Policy": null,
+					"Compromises": "Civility",
+					"Examples": [
+						"fascist",
+						"libtard",
+						"wingnut",
+						"racist",
+						"snowflake"
+					]
+				},
+				"Condescension": {
+					"Definition": "Patronizing superiority",
+					"Policy": "[[Wikipedia:Civility]]",
+					"Compromises": "Civility",
+					"Example": "Let me see if I can put this in simple terms that even you can understand."
+				},
+				"Degradation": {
+					"Definition": null,
+					"Policy": null,
+					"Compromises": [
+						"Civility",
+						"Collegiality",
+						"Etiquette"
+					],
+					"Example": "I mean, look at yourself. Who else would want you?"
+				},
+				"Manipulation": {
+					"Definition": null,
+					"Policy": null,
+					"Compromises": [
+						"Honesty"
+					],
+					"Example": null
+				},
+				"Blaming": {
+					"Definition": null,
+					"Policy": null,
+					"Compromises": [
+						"Collegiality",
+						"Etiquette"
+					],
+					"Example": "It's your fault I misbehaved. You make me so mad!"
+				},
+				"Accusing": {
+					"Definition": null,
+					"Policy": null,
+					"Compromises": [
+						"Collegiality",
+						"Etiquette"
+					]
+				},
+				"Hate speech": {
+					"Definition": "discriminatory language aimed at vilifying, humiliating, inciting hatred against individuals or groups on the basis of who they are or their personal beliefs",
+					"Policy": null,
+					"UCOC": 3.3,
+					"Compromises": [
+						"Safety",
+						"Equality"
+					]
+				},
+				"Mockery": {
+					"Definition": "To make fun of, especially by mimicking",
+					"Policy": null,
+					"UCoC": "3.1 Harassment > Insults",
+					"Compromises": [
+						"Pomposity",
+						"Etiquette"
+					]
+				},
+				"Sarcasm": {
+					"Definition": "Ridicule or mockery used harshly, often crudely and contemptuously, for destructive purposes",
+					"Policy": null,
+					"UCoC": "3.1 Harassment > Insults",
+					"Compromises": [
+						"Pomposity",
+						"Etiquette"
+					],
+					"Essay": "[[Wikipedia:Sarcasm is really helpful]]",
+					"Examples": [
+						"Was there a lack of graves in Egypt, that you took us away to die in the wilderness?(Exodus 14:11)",
+						"But I shall be sober in the morning, and you will still be ugly"
+					],
+					"Subclass of": "Insults"
+				},
+				"Irony": {
+					"Definition": "words expressing something other than their literal meaning, humorously",
+					"Policy": null,
+					"Compromises": [
+						"Etiquette",
+						"Respect",
+						"Arrogance",
+						"Pomposity",
+						"Earnestness"
+					],
+					"Example": "clear as mud"
+				},
+				"Snark": {
+					"Definition": "Mocking irreverence",
+					"Policy": null,
+					"Compromises": "Respect",
+					"Example": "I never forget a face, but in your case, I will make an exception."
+				},
+				"Using slurs": {
+					"Definition": null,
+					"Policy": null,
+					"Compromises": "Civility",
+					"Examples": [
+						"Category:Ethnic_and_religious_slurs",
+						"List of ethnic slurs",
+						"I wanted to watch the video of the raghead but I couldn’t get it to download."
+					],
+					"Remedy": ":Revision_deletion (2)"
+				},
+				"Using stereotypes": {
+					"Definition": null,
+					"Policy": null,
+					"Compromises": "Civility"
+				}
+			},
+			"Psychological abuse": {
+				"Definition": "behavior that is psychologically harmful",
+				"Policy": null,
+				"Compromises": "Mental health",
+				"Also known as": [
+					"Emotional abuse",
+					"mental abuse"
+				],
+				"Subclass of": "Abuse",
+				"Psychological manipulation": {
+					"Definition": null,
+					"UCoC": 3.2,
+					"Policy": null,
+					"Compromises": "Mental health",
+					"Subclass of": "Psychological abuse"
+				},
+				"Gaslighting": {
+					"Definition": "manipulate someone by psychological means into questioning their own sanity",
+					"Policy": null,
+					"Guideline": "[[Wikipedia:Gaming_the_system#GASLIGHTING]]",
+					"Compromises": "Mental health",
+					"Examples": [
+						"Denying that you posted what you did",
+						"Suggesting someone agreed to something they did not",
+						"Pretending your question has not already been answered",
+						"Misrepresenting what a policy actually says or means",
+						"Prevaricating about the obvious meaning of a claim",
+						"Refusing to concede when your position has been disproved or rejected by consensus"
+					],
+					"Subclass of": [
+						"Psychological abuse",
+						"Bad faith editing"
+					]
+				},
+				"Bullying": {
+					"Definition": [
+						"abuse and mistreatment of someone vulnerable by someone stronger or more powerful",
+						"use of force, coercion, hurtful teasing or threat, to abuse, aggressively dominate or intimidate"
+					],
+					"Policy": "[[Wikipedia:Civility]]",
+					"Guideline": null,
+					"Explanatory supplement": "[[Wikipedia:WikiBullying]]",
+					"Compromises": [
+						"Civility",
+						"Safety"
+					],
+					"Subclass of": [
+						"Intimidation",
+						"Psychological abuse"
+					]
+				},
+				"Legal threats": {
+					"Definition": "a threat to engage in an external (real life) legal or other governmental process that would target other editors",
+					"Policy": "[[Wikipedia:No legal threats]]",
+					"Compromises": "Safety",
+					"UCoC": "3.1 Harassment > Threats",
+					"Subclass of": "Personal attacks",
+					"Conflict type": "Interpersonal conflict",
+					"Remedy": [
+						"Strike with {{Strikethrough}}",
+						"Redact with {{tl|Redacted}}"
+					]
+				}
+			}
+		},
+		"Abuse of power, privilege, or influence": {
+			"Definition": null,
+			"Policy": null,
+			"UCoC": 3.2,
+			"Subclass of": "Undue influence",
+			"Compromises": "Equality",
+			"Abuse of office by functionaries, officials and staff": {
+				"Definition": "a functionary using the powers granted to them not in accordance with policies",
+				"Policy": "[[Wikipedia:Administrators#Accountability]]",
+				"Compromises": [
+					"Integrity",
+					"Trust"
+				],
+				"UCoC": 3.2,
+				"Also known as": "Abuse of power",
+				"Subclass of": "Abuse",
+				"Harassment":{},
+				"Interference":{},
+				"Pressure":{},
+				"Inappropriate requests or favors":{},
+				"Wheel warring": {
+					"Definition": "reversing an administrator's action without discussing the disagreement and using administrator tools to undo or redo the action",
+					"Policy": "[[Wikipedia:Administrators#Reinstating_a_reverted_action_(\"wheel_warring\")]]",
+					"Compromises": "Collegiality"
+				}
+			},
+			"Misuse of administrative tools": {
+				"Definition": "Use of the admin toolset for other purposes than administration",
+				"Policy": "[[Wikipedia:Administrators#Misuse_of_administrative_tools]]",
+				"Compromises": "Trust",
+				"Report at": "Arbcom"
+			},
+			"Abuse of seniority and connections": {
+				"Definition": "Using one's position and reputation to intimidate others.",
+				"Policy": null,
+				"UCoC": 3.2,
+				"Compromises": "Equality",
+				"Also known as": "Intimidation"
+			},
+			"Owning": {
+				"Definition": "act as though they are the owner of a particular article",
+				"Policy": "[[Wikipedia:Ownership of content]]",
+				"Compromises": "Consensus",
+				"Conflict type": "Content conflict",
+				"Resolution": "Stewardship",
+				"Single-editor ownership": {
+					"Definition": "One editor dictating the content of an article",
+					"Policy": "[[Wikipedia:Ownership of content]]",
+					"Compromises": "Consensus",
+					"Subclass of": "Owning"
+				},
+				"Multiple-editor ownership": {
+					"Definition": "A group of editors dictating the content of an article",
+					"Policy": "[[Wikipedia:Ownership of content]]",
+					"Compromises": "Consensus",
+					"Subclass of": "Owning"
+				}
+			}
+		},
+		"Hate speech":{
+			"Targeted vilification":{
+				"Definition":"10.1007/s11158-011-9158-y"
+			},
+			"Diffuse vilification":{
+				"Definition":"10.1007/s11158-011-9158-y"
+			},
+			"Organised political advocacy for exclusionary and/or eliminationist policies":{
+				"Definition":"10.1007/s11158-011-9158-y"
+			},
+			"Assertions of fact or value which constitute an adverse judgment on an identifiable racial or religious group":{
+				"Definition":"10.1007/s11158-011-9158-y"
+			}
+		}
+	}
+}
