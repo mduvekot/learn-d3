@@ -1,60 +1,51 @@
 {
-	"name": "Behaviours", 
-	"children":
-	[
+	"name": "Behaviours",
+	"children": [
 		{
-			"name":"Subversion",
-			"children":
-			[
-				{ 
-					"name":"Advertising",
-					"children": 
-					[
+			"name": "Subversion",
+			"children": [
+				{
+					"name": "Advertising",
+					"children": [
 						{
 							"name": "Covert advertising"
+						},
+						{
+							"name": "Unambiguous promotion"
 						}
 					]
 				},
 				{
-					"name": "Spamming",
-					"children": []
+					"name": "Spamming"
 				},
 				{
-					"name": "OR",
-					"children": []
+					"name": "OR"
 				},
 				{
-					"name": "Soapboxing",
-					"children": []
+					"name": "Soapboxing"
 				},
 				{
-					"name": "POV",
-					"children": []
+					"name": "POV"
 				},
 				{
-					"name": "Vandalism",
-					"children": []
+					"name": "Vandalism"
 				}
 			]
 		},
 		{
-			"name":"Misconduct",
+			"name": "Misconduct",
 			"children": [
 				{
-					"name": "Plagiarism",
-					"children": []
+					"name": "Plagiarism"
 				},
 				{
-					"name": "Misinformation",
-					"children": []
+					"name": "Misinformation"
 				},
 				{
-					"name": "Breach of trust",
-					"children": []
+					"name": "Breach of trust"
 				},
 				{
-					"name": "Bad-faith",
-					"children": []
+					"name": "Bad-faith"
 				},
 				{
 					"name": "Disruptive Editing",
@@ -68,54 +59,106 @@
 							]
 						},
 						{
-							"name":"Edit Warring",
+							"name": "Edit Warring",
 							"children": [
 								{
 									"name": "Genre Warring"
 								}
 							]
 						},
-						{"name": "Trolling",
+						{
+							"name": "Trolling",
 							"children": [
-								{"name": "Griefing"}
+								{
+									"name": "Griefing"
+								}
 							]
 						},
-						{"name":"Gaming the System"},
-						{"name":"Pointy"},
-						{"name": "Refusing to Listen"},
-						{"name": "Persistent incompetence"},
-						{"name": "Refusing to Accept consensus"}
+						{
+							"name": "Gaming the System"
+						},
+						{
+							"name": "Pointy"
+						},
+						{
+							"name": "Refusing to Listen"
+						},
+						{
+							"name": "Persistent incompetence"
+						},
+						{
+							"name": "Refusing to Accept consensus"
+						}
 					]
-				},
-				
+				}
 			]
 		},
-		{"name": "Abuse",
-			"children":[
-				{"name": "Maltreatment",
-					"children":[
-						{"name": "Discrimination"},
-						{"name": "Harassment",
-							"children":[
-								{"name": "Doxxing"},
-								{"name": "Sexual Harassment"},
-								{"name": "Misgendering"},
-								{"name": "Deadnaming"},
-								{"name": "Microagressions"},
-								{"name": "Violations of bodily integrity"},
-								{"name": "Hounding"},
-								{"name": "Public Harassment"},
-								{"name": "Private Harassment"},
-								{"name": "Badgering"},
-								{"name": "Encouraging harm to others"}
-							]},
-						{"name": "Aggression",
-							"children": [
-								{"name": "Personal Attacks"},
-								{"name": "Biting"}
-							]},
-						{"name": "Verbal Abuse",
-							"children":[
+		{
+			"name": "Abuse",
+			"children":
+			[
+				{
+					"name": "Maltreatment",
+					"children":
+					[
+						{
+							"name": "Discrimination"
+						},
+						{
+							"name": "Harassment",
+							"children":
+							[
+									{
+										"name": "Doxxing"
+									},
+									{
+										"name": "Sexual Harassment"
+									},
+									{
+										"name": "Misgendering"
+									},
+									{
+										"name": "Deadnaming"
+									},
+									{
+										"name": "Microagressions"
+									},
+									{
+										"name": "Violations of bodily integrity"
+									},
+									{
+										"name": "Hounding"
+									},
+									{
+										"name": "Public Harassment"
+									},
+									{
+										"name": "Private Harassment"
+									},
+									{
+										"name": "Badgering"
+									},
+									{
+										"name": "Encouraging harm to others"
+									}
+							]
+						},
+						{
+							"name": "Aggression",
+							"children": 
+							[
+								{
+									"name": "Personal Attacks"
+								},
+								{
+									"name": "Biting"
+								}
+							]
+						},
+						{
+							"name": "Verbal Abuse",
+							"children":
+							[
 								{"name":"Name-calling"},
 								{"name":"Condescension"},
 								{"name":"Degradation"},
@@ -125,32 +168,41 @@
 								{"name":"Sarcasm"},
 								{"name":"Snark"},
 								{"name":"Stereotyping"}
-							]},
-						{"name": "Psychological Abuse",
-							"children":[
-
+							]
+						},
+						{
+							"name": "Psychological Abuse",
+							"children":
+							[
 								{"name":"Manipulation"},
 								{"name":"Bullying"},
 								{"name":"Gaslighting"},
 								{"name":"Threats"}
-							]},
-						
-					]},
-				{"name": "Abuse of Power",
-					"children":[
+							]
+						}
+					]
+				},
+				{
+					"name": "Abuse of Power",
+					"children":
+					[
 						{"name": "Abuse of office"},
 						{"name": "Misuse of tools"},
 						{"name": "Abuse of seniority"},
 						{"name": "Owning"}
-					]},
-				{"name": "Hate speech",
-					"children":[
+					]
+				},
+				{
+					"name": "Hate speech",
+					"children":
+					[
 						{"name": "Targeted vilification"},
 						{"name": "Diffuse vilification"},
 						{"name": "Organised political advocacy for exclusionary and/or eliminationist policies"},
 						{"name": "Assertions of fact or value which constitute an adverse judgment on an identifiable racial or religious group"}
-					]}
-				
-			]}
+					]
+				}
+			]
+		}
 	]
-}	
+}
