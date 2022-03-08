@@ -27,7 +27,7 @@
 				},
 				{
 					"name": "Soapboxing",
-					"frequency", 10
+					"frequency": 10
 				},
 				{
 					"name": "POV",
@@ -53,7 +53,6 @@
 				{
 					"name": "Breach of trust",
 					"frequency": 0
-					
 				},
 				{
 					"name": "Bad-faith",
@@ -90,19 +89,24 @@
 							]
 						},
 						{
-							"name": "Gaming the System", "frequency": 0
+							"name": "Gaming the System",
+							"frequency": 0
 						},
 						{
-							"name": "Pointy", "frequency": 0
+							"name": "Pointy",
+							"frequency": 0
 						},
 						{
-							"name": "Refusing to Listen", "frequency": 30
+							"name": "Refusing to Listen",
+							"frequency": 30
 						},
 						{
-							"name": "Persistent incompetence", "frequency": 10
+							"name": "Persistent incompetence",
+							"frequency": 10
 						},
 						{
-							"name": "Refusing to Accept consensus", "frequency": 50
+							"name": "Refusing to Accept consensus",
+							"frequency": 50
 						}
 					]
 				}
@@ -110,111 +114,180 @@
 		},
 		{
 			"name": "Abuse",
-			"children":
-			[
+			"children": [
 				{
 					"name": "Maltreatment",
-					"children":
-					[
+					"children": [
 						{
-							"name": "Discrimination", "frequency": 0
+							"name": "Discrimination",
+							"frequency": 0
 						},
 						{
 							"name": "Harassment",
-							"children":
-							[
-									{
-										"name": "Doxxing", "frequency": 10
-									},
-									{
-										"name": "Sexual Harassment", "frequency": 0
-									},
-									{
-										"name": "Misgendering", "frequency": 0
-									},
-									{
-										"name": "Deadnaming", "frequency": 0
-									},
-									{
-										"name": "Microagressions", "frequency": 0
-									},
-									{
-										"name": "Violations of bodily integrity", "frequency": 0
-									},
-									{
-										"name": "Hounding", "frequency": 0
-									},
-									{
-										"name": "Public Harassment", "frequency": 0
-									},
-									{
-										"name": "Private Harassment", "frequency": 0
-									},
-									{
-										"name": "Badgering", "frequency": 0
-									},
-									{
-										"name": "Encouraging harm to others", "frequency": 0
-									}
+							"children": [
+								{
+									"name": "Doxxing",
+									"frequency": 10
+								},
+								{
+									"name": "Sexual Harassment",
+									"frequency": 0
+								},
+								{
+									"name": "Misgendering",
+									"frequency": 0
+								},
+								{
+									"name": "Deadnaming",
+									"frequency": 0
+								},
+								{
+									"name": "Microagressions",
+									"frequency": 0
+								},
+								{
+									"name": "Violations of bodily integrity",
+									"frequency": 0
+								},
+								{
+									"name": "Hounding",
+									"frequency": 0
+								},
+								{
+									"name": "Public Harassment",
+									"frequency": 0
+								},
+								{
+									"name": "Private Harassment",
+									"frequency": 0
+								},
+								{
+									"name": "Badgering",
+									"frequency": 0
+								},
+								{
+									"name": "Encouraging harm to others",
+									"frequency": 0
+								}
 							]
 						},
 						{
 							"name": "Aggression",
-							"children": 
-							[
+							"children": [
 								{
-									"name": "Personal Attacks", "frequency": 30
+									"name": "Personal Attacks",
+									"frequency": 30
 								},
 								{
-									"name": "Biting", "frequency": 0
+									"name": "Biting",
+									"frequency": 0
 								}
 							]
 						},
 						{
 							"name": "Verbal Abuse",
-							"children":
-							[
-								{"name":"Name-calling", "frequency": 0},
-								{"name":"Condescension", "frequency": 0},
-								{"name":"Degradation", "frequency": 0},
-								{"name":"Blaming", "frequency": 0},
-								{"name":"Accusing", "frequency": 0},
-								{"name":"Mockery", "frequency": 0},
-								{"name":"Sarcasm", "frequency": 0},
-								{"name":"Snark", "frequency": 0},
-								{"name":"Stereotyping", "frequency": 0}
+							"children": [
+								{
+									"name": "Name-calling",
+									"frequency": 0
+								},
+								{
+									"name": "Condescension",
+									"frequency": 0
+								},
+								{
+									"name": "Degradation",
+									"frequency": 0
+								},
+								{
+									"name": "Blaming",
+									"frequency": 0
+								},
+								{
+									"name": "Accusing",
+									"frequency": 0
+								},
+								{
+									"name": "Mockery",
+									"frequency": 0
+								},
+								{
+									"name": "Sarcasm",
+									"frequency": 0
+								},
+								{
+									"name": "Snark",
+									"frequency": 0
+								},
+								{
+									"name": "Stereotyping",
+									"frequency": 0
+								}
 							]
 						},
 						{
 							"name": "Psychological Abuse",
-							"children":
-							[
-								{"name":"Manipulation", "frequency": 0},
-								{"name":"Bullying", "frequency": 0},
-								{"name":"Gaslighting", "frequency": 0},
-								{"name":"Threats", "frequency": 0}
+							"children": [
+								{
+									"name": "Manipulation",
+									"frequency": 0
+								},
+								{
+									"name": "Bullying",
+									"frequency": 0
+								},
+								{
+									"name": "Gaslighting",
+									"frequency": 0
+								},
+								{
+									"name": "Threats",
+									"frequency": 0
+								}
 							]
 						}
 					]
 				},
 				{
 					"name": "Abuse of Power",
-					"children":
-					[
-						{"name": "Abuse of office", "frequency": 0},
-						{"name": "Misuse of tools", "frequency": 0},
-						{"name": "Abuse of seniority", "frequency": 0},
-						{"name": "Owning", "frequency": 0}
+					"children": [
+						{
+							"name": "Abuse of office",
+							"frequency": 0
+						},
+						{
+							"name": "Misuse of tools",
+							"frequency": 0
+						},
+						{
+							"name": "Abuse of seniority",
+							"frequency": 0
+						},
+						{
+							"name": "Owning",
+							"frequency": 0
+						}
 					]
 				},
 				{
 					"name": "Hate speech",
-					"children":
-					[
-						{"name": "Targeted vilification", "frequency": 0},
-						{"name": "Diffuse vilification", "frequency": 0},
-						{"name": "Organised political advocacy for exclusionary and/or eliminationist policies", "frequency": 0},
-						{"name": "Assertions of fact or value which constitute an adverse judgment on an identifiable racial or religious group", "frequency": 0}
+					"children": [
+						{
+							"name": "Targeted vilification",
+							"frequency": 0
+						},
+						{
+							"name": "Diffuse vilification",
+							"frequency": 0
+						},
+						{
+							"name": "Organised political advocacy for exclusionary and/or eliminationist policies",
+							"frequency": 0
+						},
+						{
+							"name": "Assertions of fact or value which constitute an adverse judgment on an identifiable racial or religious group",
+							"frequency": 0
+						}
 					]
 				}
 			]
