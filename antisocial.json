@@ -1,4 +1,7 @@
-
+{
+	"name":"Behaviours",
+	"children": 
+	[
 		{
 			"name": "Subversion",
 			"children": [
@@ -290,3 +293,5 @@
 				}
 			]
 		}
+	]
+}
