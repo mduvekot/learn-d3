@@ -9,17 +9,17 @@
 					"children": [
 						{
 							"name": "Covert advertising",
-							"frequency": 100
+							"frequency": 2
 						},
 						{
 							"name": "Unambiguous promotion",
-							"frequency": 30
+							"frequency": 3
 						}
 					]
 				},
 				{
 					"name": "Spamming",
-					"frequency": 100
+					"frequency": 5
 				},
 				{
 					"name": "Original Research",
@@ -27,15 +27,15 @@
 				},
 				{
 					"name": "Soapboxing",
-					"frequency": 10
+					"frequency": 2
 				},
 				{
 					"name": "POV",
-					"frequency": 12
+					"frequency": 7
 				},
 				{
 					"name": "Vandalism",
-					"frequency": 200
+					"frequency": 9
 				}
 			]
 		},
@@ -48,15 +48,15 @@
 				},
 				{
 					"name": "Misinformation",
-					"frequency": 0
+					"frequency": 1
 				},
 				{
 					"name": "Breach of trust",
-					"frequency": 0
+					"frequency": 1
 				},
 				{
 					"name": "Bad-faith",
-					"frequency": 0
+					"frequency": 1
 				},
 				{
 					"name": "Disruptive Editing",
@@ -66,7 +66,7 @@
 							"children": [
 								{
 									"name": "RGW",
-									"frequency": 0
+									"frequency": 1
 								}
 							]
 						},
@@ -75,7 +75,7 @@
 							"children": [
 								{
 									"name": "Genre Warring",
-									"frequency": 0
+									"frequency": 1
 								}
 							]
 						},
@@ -84,29 +84,29 @@
 							"children": [
 								{
 									"name": "Griefing",
-									"frequency": 0
+									"frequency": 1
 								}
 							]
 						},
 						{
 							"name": "Gaming the System",
-							"frequency": 0
+							"frequency": 1
 						},
 						{
 							"name": "Pointy",
-							"frequency": 0
+							"frequency": 1
 						},
 						{
 							"name": "Refusing to Listen",
-							"frequency": 30
+							"frequency": 6
 						},
 						{
 							"name": "Persistent incompetence",
-							"frequency": 10
+							"frequency": 9
 						},
 						{
 							"name": "Refusing to Accept consensus",
-							"frequency": 50
+							"frequency": 9
 						}
 					]
 				}
@@ -120,54 +120,54 @@
 					"children": [
 						{
 							"name": "Discrimination",
-							"frequency": 0
+							"frequency": 1
 						},
 						{
 							"name": "Harassment",
 							"children": [
 								{
 									"name": "Doxxing",
-									"frequency": 10
+									"frequency": 9
 								},
 								{
 									"name": "Sexual Harassment",
-									"frequency": 0
+									"frequency": 9
 								},
 								{
 									"name": "Misgendering",
-									"frequency": 0
+									"frequency": 2
 								},
 								{
 									"name": "Deadnaming",
-									"frequency": 0
+									"frequency": 2
 								},
 								{
 									"name": "Microagressions",
-									"frequency": 0
+									"frequency": 1
 								},
 								{
 									"name": "Violations of bodily integrity",
-									"frequency": 0
+									"frequency": 9
 								},
 								{
 									"name": "Hounding",
-									"frequency": 0
+									"frequency": 7
 								},
 								{
 									"name": "Public Harassment",
-									"frequency": 0
+									"frequency": 6
 								},
 								{
 									"name": "Private Harassment",
-									"frequency": 0
+									"frequency": 6
 								},
 								{
 									"name": "Badgering",
-									"frequency": 0
+									"frequency": 2
 								},
 								{
 									"name": "Encouraging harm to others",
-									"frequency": 0
+									"frequency": 9
 								}
 							]
 						},
@@ -176,11 +176,11 @@
 							"children": [
 								{
 									"name": "Personal Attacks",
-									"frequency": 30
+									"frequency": 3
 								},
 								{
 									"name": "Biting",
-									"frequency": 0
+									"frequency": 1
 								}
 							]
 						},
@@ -189,39 +189,39 @@
 							"children": [
 								{
 									"name": "Name-calling",
-									"frequency": 0
+									"frequency": 1
 								},
 								{
 									"name": "Condescension",
-									"frequency": 0
+									"frequency": 1
 								},
 								{
 									"name": "Degradation",
-									"frequency": 0
+									"frequency": 1
 								},
 								{
 									"name": "Blaming",
-									"frequency": 0
+									"frequency": 1
 								},
 								{
 									"name": "Accusing",
-									"frequency": 0
+									"frequency": 1
 								},
 								{
 									"name": "Mockery",
-									"frequency": 0
+									"frequency": 1
 								},
 								{
 									"name": "Sarcasm",
-									"frequency": 0
+									"frequency": 1
 								},
 								{
 									"name": "Snark",
-									"frequency": 0
+									"frequency": 1
 								},
 								{
 									"name": "Stereotyping",
-									"frequency": 0
+									"frequency": 1
 								}
 							]
 						},
@@ -230,19 +230,19 @@
 							"children": [
 								{
 									"name": "Manipulation",
-									"frequency": 0
+									"frequency": 1
 								},
 								{
 									"name": "Bullying",
-									"frequency": 0
+									"frequency": 1
 								},
 								{
 									"name": "Gaslighting",
-									"frequency": 0
+									"frequency": 1
 								},
 								{
 									"name": "Threats",
-									"frequency": 0
+									"frequency": 1
 								}
 							]
 						}
@@ -253,19 +253,19 @@
 					"children": [
 						{
 							"name": "Abuse of office",
-							"frequency": 0
+							"frequency": 9
 						},
 						{
 							"name": "Misuse of tools",
-							"frequency": 0
+							"frequency": 9
 						},
 						{
 							"name": "Abuse of seniority",
-							"frequency": 0
+							"frequency": 2
 						},
 						{
 							"name": "Owning",
-							"frequency": 0
+							"frequency": 1
 						}
 					]
 				},
@@ -274,19 +274,19 @@
 					"children": [
 						{
 							"name": "Targeted vilification",
-							"frequency": 0
+							"frequency": 6
 						},
 						{
 							"name": "Diffuse vilification",
-							"frequency": 0
+							"frequency": 6
 						},
 						{
 							"name": "Organised political advocacy for exclusionary and/or eliminationist policies",
-							"frequency": 0
+							"frequency": 6
 						},
 						{
 							"name": "Assertions of fact or value which constitute an adverse judgment on an identifiable racial or religious group",
-							"frequency": 0
+							"frequency": 6
 						}
 					]
 				}
